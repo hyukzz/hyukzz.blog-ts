@@ -29,16 +29,28 @@ const Header = () => {
       <Group>
         <div onClick={themeModeHandle}>
           {themeMode === 'dark' ? (
-            <ThemeModeImage alt='밝은 모드로 변경' src='' />
+            <ThemeModeImage
+              alt='밝은 모드로 변경'
+              src='https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Sun-512.png'
+            />
           ) : (
-            <ThemeModeImage alt='어두운 모드로 변경' src='' />
+            <ThemeModeImage
+              alt='어두운 모드로 변경'
+              src='https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/moon_dark_mode_night-2-512.png'
+            />
           )}
         </div>
         <Link href='/' passHref>
           {themeMode === 'dark' ? (
-            <LogoImage src='' alt='어두운 로고' />
+            <LogoImage
+              src='https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/moon_dark_mode_night-2-512.png'
+              alt='어두운 로고'
+            />
           ) : (
-            <LogoImage src='' alt='밝은 로고' />
+            <LogoImage
+              src='https://cdn3.iconfinder.com/data/icons/spring-2-1/30/Sun-512.png'
+              alt='밝은 로고'
+            />
           )}
         </Link>
       </Group>
