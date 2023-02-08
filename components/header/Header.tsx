@@ -18,7 +18,7 @@ const Header = () => {
     window.localStorage.setItem('theme', themeMode);
   }, [themeMode]);
 
-  const themeModeHandle = e => {
+  const themeModeHandle = (e: React.MouseEvent) => {
     e.preventDefault();
     setThemeMode(themeMode === 'dark' ? 'light' : 'dark');
   };
