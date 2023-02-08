@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-// import mq from 'mq'
+import mq from '../../utils/mq';
 import { css } from '@emotion/react';
 
 export const NavContainer = styled.div`
@@ -12,12 +12,12 @@ export const NavContainer = styled.div`
     padding-right: 20px;
     transition: 0.3s;
     font-size: 18px;
-    /* {mq()({
+    ${mq()({
       display: ['none', 'block'],
     })}
     &:hover {
       color: var(--tx-accent);
-    } */
+    }
   }
   a[data-selected='true'] {
     color: var(--tx-accent);
@@ -25,9 +25,9 @@ export const NavContainer = styled.div`
   svg {
     fill: var(--tx-sub);
     cursor: pointer;
-    /* {mq()({
+    ${mq()({
       display: ['block', 'none'],
-    })} */
+    })}
   }
 `;
 

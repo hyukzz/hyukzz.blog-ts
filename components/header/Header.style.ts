@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-// import mq from '../styles/util/mq'
+import mq from '../../utils/mq';
 
 export const HeaderContainer = styled.header`
   position: fixed;
@@ -12,10 +12,10 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   z-index: 20;
-  /* {mq()({
+  ${mq()({
     height: ['60px', '70px'],
     padding: ['0 20px', '0 calc((100% - 700px)/2)'],
-  })} */
+  })}
 `;
 
 export const Group = styled.div`
