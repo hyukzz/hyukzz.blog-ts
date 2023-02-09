@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import mq from '../../utils/mq';
 import { css } from '@emotion/react';
+import mq from '@/utils/mq';
 
 export const NavContainer = styled.div`
   display: flex;
