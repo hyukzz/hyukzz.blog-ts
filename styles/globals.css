@@ -117,11 +117,16 @@ header {
 }
 
 body[data-theme='dark'] #home-profile {
-  background: url('') no-repeat center, var(--bg-main);
+  background: url('https://media.tenor.com/9wEpMZgbqHcAAAAd/starseed.gif')
+      no-repeat,
+    var(--bg-main);
+  background-size: cover;
 }
 
 body[data-theme='light'] #home-profile {
-  background: url('') no-repeat, var(--bg-main);
+  background: url('https://media.tenor.com/inGoSRk6OBgAAAAC/space-sky.gif')
+      no-repeat,
+    var(--bg-main);
   background-size: cover;
 }
 
