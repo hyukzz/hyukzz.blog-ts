@@ -12,8 +12,9 @@ const metadata = {
   },
   social: {
     github: 'https://github.com/hyukzz',
-    email: 'hyuk2richard@gmail.com',
-    notion_blog:
+    email:
+      'https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hyuk2richard@gmail.com',
+    notion:
       'https://younhyuk.notion.site/HYUK-s-28f4f1050f9249d2a7031405d59f7503',
     velog: 'https://velog.io/@richard',
   },
