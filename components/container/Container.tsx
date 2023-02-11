@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { ContainerContainer, Main } from './Container.style';
-import Footer from '../footer/Footer';
+import Footer from '@/components/footer/Footer';
 // import GA from './GA';
 import dynamic from 'next/dynamic';
 
