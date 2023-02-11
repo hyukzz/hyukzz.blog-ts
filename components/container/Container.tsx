@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { ContainerContainer, Main } from './Container.style';
-// import Footer from './Footer';
+import Footer from '../footer/Footer';
 // import GA from './GA';
 import dynamic from 'next/dynamic';
 
@@ -18,7 +18,7 @@ const Container = ({ children }) => {
       <ContainerContainer>
         <Header />
         <Main>{children}</Main>
-        {/* <Footer /> */}
+        <Footer />
       </ContainerContainer>
     </>
   );
