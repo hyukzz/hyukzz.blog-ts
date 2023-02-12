@@ -18,6 +18,9 @@ const metadata = {
       'https://younhyuk.notion.site/HYUK-s-28f4f1050f9249d2a7031405d59f7503',
     velog: 'https://velog.io/@richard',
   },
+  analytics: {
+    google: 'G-RW0M0HRSFY',
+  },
   giscus: {
     id: '',
     repo: '',
