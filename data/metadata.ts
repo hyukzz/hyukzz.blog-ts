@@ -19,7 +19,7 @@ const metadata = {
     velog: 'https://velog.io/@richard',
   },
   analytics: {
-    google: '',
+    google: 'G-HFL33MTM7L',
   },
   giscus: {
     id: '',

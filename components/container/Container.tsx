@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { ContainerContainer, Main } from './Container.style';
 import Footer from '@/components/footer/Footer';
-// import GA from './GA';
+import GoogleAnalytics from '@/components/google/GoogleAnalytics';
 import dynamic from 'next/dynamic';
 
 const Header = dynamic(() => import('@/components/header/Header'), {
@@ -14,7 +14,7 @@ const Container = ({ children }) => {
       <Head>
         <meta content='width=device-width, initial-scale=1' name='viewport' />
       </Head>
-      {/* <GA /> */}
+      <GoogleAnalytics />
       <ContainerContainer>
         <Header />
         <Main>{children}</Main>
