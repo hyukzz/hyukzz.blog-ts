@@ -1,7 +1,7 @@
 import Script from 'next/script';
 import metadata from '@/data/metadata';
 
-const GA = () => {
+const GoogleAnalytics = () => {
   return (
     <>
       <Script
@@ -21,4 +21,4 @@ const GA = () => {
   );
 };
 
-export default GA;
+export default GoogleAnalytics;
