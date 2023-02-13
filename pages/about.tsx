@@ -4,7 +4,7 @@ import Container from '@/components/container/Container';
 import metadata from '@/data/metadata';
 import { NextSeo } from 'next-seo';
 
-function Aboutpage() {
+function About() {
   return (
     <Container>
       <NextSeo
@@ -18,4 +18,4 @@ function Aboutpage() {
   );
 }
 
-export default Aboutpage;
+export default About;

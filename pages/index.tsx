@@ -8,7 +8,7 @@ const HomeProfile = dynamic(
   }
 );
 
-function Homepage() {
+function Home() {
   return (
     <Container>
       <>
@@ -18,4 +18,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Home;
