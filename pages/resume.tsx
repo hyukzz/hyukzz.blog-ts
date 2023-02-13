@@ -1,13 +1,9 @@
-// import ResumeLayout from '../layouts/resume'
-import Nav from '@/components/nav/Nav';
-function Resumepage() {
-  // return <ResumeLayout />
+function Resume() {
   return (
     <>
-      <Nav />
-      <div>di</div>
+      <div>내용</div>
     </>
   );
 }
 
-export default Resumepage;
+export default Resume;
