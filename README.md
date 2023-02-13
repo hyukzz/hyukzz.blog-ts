@@ -2,7 +2,8 @@
 
 ## 진행 사항 및 설명
 
-https://younhyuk.notion.site/7a64f4afa4a542d3ac538db12664d97b?v=4bece1a65ac14ed1bd0066b6fb3b1d99
+<a href="https://younhyuk.notion.site/7a64f4afa4a542d3ac538db12664d97b?v=4bece1a65ac14ed1bd0066b6fb3b1d99" target="_blank" >Blog project 저장소</a>
+
 
 ## Blog
 https://hyuklog.vercel.app/
@@ -18,15 +19,18 @@ I was using velog & notion, but I started it because I wanted to create a blog t
 좋은 아이디어가 있다면 말씀해주세요 !!
 
 ## Stack
-- Language TypeScript
-- Framework Next.js
-- Style Emotion
-- Deploy Vercel
-- VCS Github
+
+- `Language` TypeScript
+- `Framework` Next.js
+- `Style` Emotion
+- `Deploy` Vercel
+- `VCS` Github
+
 
 ## Run
 ```
 npm install
+
 npm run dev
 ```
 
