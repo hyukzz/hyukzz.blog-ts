@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-
 import { DropNavContainer, NavContainer } from './Nav.style';
-import navLinks from '../../data/navLinks';
+import navLinks from '@/data/navLinks';
 
 const Links = ({ setIsDropMenuOpen }) => {
   const router = useRouter();
@@ -13,9 +12,7 @@ const Links = ({ setIsDropMenuOpen }) => {
       {navLinks.map(link => (
         <Link href={link.link} key={link.title} passHref legacyBehavior>
           <a
-            data-selected={
-              router.pathname.includes(link.path) ? 'true' : 'false'
-            }
+            data-selected={router.pathname === link.path ? 'true' : 'false'}
             onClick={() => setIsDropMenuOpen(false)}
           >
             {link.title}
