@@ -84,7 +84,7 @@ body,
 body[data-theme='dark'] {
   --bg-main: #111111;
   --bg-sub: #333333;
-  --bg-a5: rgba(0, 0, 0, 0.5);
+  --bg-a5: rgba(255, 255, 255, 0.5);
   --bg-a7: rgba(0, 0, 0, 0.7);
   --tx-main: #eaeaea;
   --tx-sub: #bdc1c9;
