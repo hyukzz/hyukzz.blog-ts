@@ -27,7 +27,7 @@ const metadata = {
     category: 'General',
   },
   ads: {
-    google: '',
+    google: 'ca-pub-7410391171994960',
   },
 };
 
