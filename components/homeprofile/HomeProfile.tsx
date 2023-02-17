@@ -1,11 +1,12 @@
+import Link from 'next/link';
+
 import {
   Description,
   HomeProfileContainer,
   LearnMore,
   Name,
 } from './HomeProfile.style';
-import Link from 'next/link';
-import metadata from '../../data/metadata';
+import metadata from '@/data/metadata';
 
 const HomeProfile = () => {
   return (
