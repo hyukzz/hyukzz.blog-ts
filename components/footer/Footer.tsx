@@ -43,11 +43,6 @@ const Footer = () => {
             />
           </a>
         )}
-        {/* {metadata.social.rss && (
-          <a href={metadata.social.rss} target='_blank' rel='noreferrer'>
-            <SocialIcon src='/social/rss.svg' alt='rss' />
-          </a>
-        )}  */}
       </SocialIconWrap>
       <Copyright>
         Copyright © {new Date().getFullYear()} {metadata.author}
