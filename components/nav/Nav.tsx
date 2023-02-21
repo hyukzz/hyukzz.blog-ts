@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+
 import { DropNavContainer, NavContainer } from './Nav.style';
 import navLinks from '@/data/navLinks';
 
