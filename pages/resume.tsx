@@ -1,9 +1,7 @@
+import ResumeLayout from '@/layouts/ResumeLayout';
+
 function Resume() {
-  return (
-    <>
-      <div>내용</div>
-    </>
-  );
+  return <ResumeLayout />;
 }
 
 export default Resume;
