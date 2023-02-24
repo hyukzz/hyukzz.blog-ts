@@ -29,6 +29,7 @@ export const Copyright = styled.span`
   font-size: 14px;
   color: var(--tx-sub);
   margin-top: 10px;
+  user-select: none;
 `;
 
 export const BlogInfo = styled.a`
