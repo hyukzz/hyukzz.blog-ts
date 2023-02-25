@@ -19,7 +19,7 @@ export const NavContainer = styled.div`
       color: var(--tx-accent);
     }
   }
-  a[data-selected='true'] {
+  a.selected {
     color: var(--tx-accent);
   }
   svg {

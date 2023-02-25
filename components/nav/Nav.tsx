@@ -13,7 +13,7 @@ const Links = ({ setIsDropMenuOpen }) => {
       {navLinks.map(link => (
         <Link href={link.link} key={link.title} passHref legacyBehavior>
           <a
-            data-selected={router.pathname === link.path ? 'true' : 'false'}
+            className={router.pathname === link.path ? 'selected' : null}
             onClick={() => setIsDropMenuOpen(false)}
           >
             {link.title}
