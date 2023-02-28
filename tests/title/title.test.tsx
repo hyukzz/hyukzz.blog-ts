@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Title from '@/components/title/Title';
+import Title from '@/components/about/AboutTitle';
 
 describe('Title', () => {
   it('renders the title and description text', () => {
