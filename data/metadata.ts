@@ -1,4 +1,30 @@
-const metadata = {
+type Metadata = {
+  repo: string;
+  meta: {
+    url: string;
+    title: string;
+    description: string;
+  };
+  author: string;
+  home: {
+    name: string;
+    description: string;
+  };
+  social: {
+    github: string;
+    email: string;
+    notion: string;
+    velog: string;
+  };
+  analytics: {
+    google: string;
+  };
+  ads: {
+    google: string;
+  };
+};
+
+const metadata: Metadata = {
   repo: 'https://github.com/hyukzz/hyukzz.blog-ts',
   meta: {
     url: 'https://hyukzz-blog.vercel.app',
@@ -20,11 +46,6 @@ const metadata = {
   },
   analytics: {
     google: 'G-RW0M0HRSFY',
-  },
-  giscus: {
-    id: '',
-    repo: '',
-    category: 'General',
   },
   ads: {
     google: 'ca-pub-7410391171994960',
