@@ -9,6 +9,14 @@ const projects: Project[] = [
     url: 'https://github.com/hyukzz/ReMomukzzi',
     image: '/projects/깃허브 리드미.gif',
   },
+  {
+    id: 2,
+    title: 'EveryFootball',
+    description:
+      'everyfootall은 매번 다수의 플레이어가 필요한 풋살을 플레이하기 위한 인원 모집 플랫폼입니다.',
+    url: 'https://github.com/codestates/everyfootball',
+    image: '/projects/풋살 메인페이지.gif',
+  },
 ];
 
 export default projects;
