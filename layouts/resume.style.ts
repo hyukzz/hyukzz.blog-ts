@@ -5,7 +5,7 @@ export const ResumeContent = styled.div`
   background: white;
   padding: 30px;
   color: #111111;
-  border: var(--tx-main) 1px solid;
+  border: var(--tx-sub) 2px solid;
   & * {
     color: #111111;
     word-break: keep-all;
