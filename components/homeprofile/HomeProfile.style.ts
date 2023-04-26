@@ -14,7 +14,7 @@ export const Name = styled.span`
   font-weight: 700;
   color: var(--tx-white);
   ${mq()({
-    fontSize: ['30px', '35px'],
+    fontSize: ['30px', '36px'],
   })}
 `;
 
