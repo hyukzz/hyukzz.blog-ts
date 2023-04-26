@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import Link from 'next/link';
+
 import {
   AboutProfileContainer,
   ProfileText,
   ProfileTextSub,
-  Resume,
 } from './AboutProfile.style';
 
 const AboutProfile = () => {
