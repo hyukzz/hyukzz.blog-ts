@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import Link from 'next/link';
+
 import {
   AboutProfileContainer,
   ProfileText,
   ProfileTextSub,
-  Resume,
 } from './AboutProfile.style';
 
 const AboutProfile = () => {
@@ -36,9 +35,7 @@ const AboutProfile = () => {
         <ProfileTextSub>Futsal, Cycling, Work out, Basketball</ProfileTextSub>
         <br />
         <br />
-        <Link href="/resume" passHref>
-          <Resume>Resume</Resume>
-        </Link>
+        <ProfileTextSub>위기에는 변화가 필요하다!</ProfileTextSub>
       </ProfileText>
     </AboutProfileContainer>
   );
