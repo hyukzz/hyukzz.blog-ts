@@ -9,14 +9,14 @@ import resumedata from '@/data/resumedata';
 const ResumeCard = () => {
   return (
     <>
-      {resumedata.experience.map(experience => (
+      {resumedata.experience.map((experience) => (
         <ResumeCardContainer key={experience.name}>
           <Name>{experience.name}</Name>
           <Position>
             {experience.position} | {experience.period}
           </Position>
-          {experience.content.map(content => (
-            <Content key={content}>- {content}</Content>
+          {experience.content.map((content) => (
+            <Content key={content}> - {content}</Content>
           ))}
         </ResumeCardContainer>
       ))}

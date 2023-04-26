@@ -10,11 +10,11 @@ import metadata from '@/data/metadata';
 
 const HomeProfile = () => {
   return (
-    <HomeProfileContainer id='home-profile'>
+    <HomeProfileContainer id="home-profile">
       <Name>{metadata.home.name}</Name>
       <Description>{metadata.home.description}</Description>
       <LearnMore>
-        <Link href='/about' passHref>
+        <Link href="/about" passHref>
           Learn more
         </Link>
       </LearnMore>

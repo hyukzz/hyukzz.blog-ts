@@ -11,9 +11,9 @@ const AboutProfile = () => {
   return (
     <AboutProfileContainer>
       <Image
-        src='/about/hyuk.jpg'
-        className='round-image'
-        alt='YounHyukJung'
+        src="/about/hyuk.jpg"
+        className="image"
+        alt="YounHyukJung"
         width={300}
         height={340}
       />
@@ -36,7 +36,7 @@ const AboutProfile = () => {
         <ProfileTextSub>Futsal, Cycling, Work out, Basketball</ProfileTextSub>
         <br />
         <br />
-        <Link href='/resume' passHref>
+        <Link href="/resume" passHref>
           <Resume>Resume</Resume>
         </Link>
       </ProfileText>

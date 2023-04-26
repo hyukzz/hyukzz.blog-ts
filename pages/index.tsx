@@ -1,19 +1,19 @@
-import Container from '@/components/container/Container';
-import dynamic from 'next/dynamic';
+import { NextSeo } from 'next-seo';
 
-const HomeProfile = dynamic(
-  () => import('@/components/homeprofile/HomeProfile'),
-  {
-    ssr: false,
-  }
-);
+import Container from '@/components/container/Container';
+import metadata from '@/data/metadata';
+import HomeProfile from '@/components/homeprofile/HomeProfile';
 
 function Home() {
   return (
     <Container>
-      <>
-        <HomeProfile />
-      </>
+      <NextSeo
+        title="home"
+        description="정윤혁의 블로그입니다."
+        canonical={`${metadata.meta.url}`}
+        openGraph={{ url: `${metadata.meta.url}` }}
+      />
+      <HomeProfile />
     </Container>
   );
 }
