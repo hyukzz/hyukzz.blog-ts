@@ -13,7 +13,7 @@ function AboutLayout() {
         canonical={`${metadata.meta.url}/about`}
         openGraph={{ url: `${metadata.meta.url}/about` }}
       />
-      <Title title="About" des="Let me introduce myself 🌈" />
+      <Title title="About" des="저는요~ 🌈" />
       <AboutProfile />
     </Container>
   );
