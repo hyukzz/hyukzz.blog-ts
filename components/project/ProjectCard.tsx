@@ -17,10 +17,10 @@ const ProjectCards = ({ projects }: { projects: Project[] }) => {
           <ProjectCard>
             <Image
               src={project.image}
-              className="round-image"
+              className="image"
               alt={project.title}
               width={300}
-              height={200}
+              height={300}
             />
             <ProjectCardContent>
               <ProjectCardTitle>{project.title}</ProjectCardTitle>
