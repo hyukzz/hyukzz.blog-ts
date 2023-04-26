@@ -47,7 +47,7 @@ export const DropNavContainer = styled.div`
   width: 100%;
   height: 100vh;
   position: absolute;
-  top: 80px;
+  top: 55px;
   left: 0;
   flex-flow: column nowrap;
   background: var(--bg-main);
