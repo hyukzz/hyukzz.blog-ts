@@ -1,4 +1,4 @@
-import { DesText, TitleContainer, TitleText } from './AboutTitle.style';
+import { DesText, TitleContainer, TitleText } from './Title.style';
 
 const AboutTitle = ({ title, des }: { title: string; des: string }) => {
   return (
