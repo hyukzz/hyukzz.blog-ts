@@ -36,9 +36,7 @@ const AboutProfile = () => {
         <ProfileTextSub>Futsal, Cycling, Work out, Basketball</ProfileTextSub>
         <br />
         <br />
-        <Link href="/resume" passHref>
-          <Resume>Resume</Resume>
-        </Link>
+        <ProfileTextSub>위기에는 변화가 필요하다!</ProfileTextSub>
       </ProfileText>
     </AboutProfileContainer>
   );
