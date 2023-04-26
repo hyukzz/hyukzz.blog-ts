@@ -7,7 +7,7 @@ export const AboutProfileContainer = styled.section`
   width: 100%;
   align-items: flex-start;
   justify-content: center;
-  & .round-image {
+  & .image {
     border-radius: 8px;
     object-fit: cover;
   }
@@ -20,7 +20,7 @@ export const ProfileText = styled.div`
   max-width: 400px;
   line-height: 25px;
   ${mq()({
-    marginTop: ['20px', '0'],
+    marginTop: ['30px', '0'],
   })}
 `;
 

@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-import Title from '@/components/about/AboutTitle';
+import Title from '@/components/title/Title';
 import projects from '@/data/projects';
 import ProjectCards from '@/components/project/ProjectCard';
 import Container from '@/components/container/Container';

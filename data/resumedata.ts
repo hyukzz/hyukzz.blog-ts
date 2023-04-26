@@ -34,7 +34,7 @@ const resumedata: Resumetype = {
     {
       name: 'Code States',
       position: 'Advanced software engineering, Immersive program (36기)',
-      period: '2021.07 - 2022.04',
+      period: '2021.08 - 2022.05',
       content: [
         'Javascript 기반으로 풀스택 과정 학습',
         '프론트엔드 React 학습, 백엔드 Node.js 학습',
@@ -60,6 +60,16 @@ const resumedata: Resumetype = {
       content: [
         '4주 동안 Javascript 기반  과제 수행',
         '아고라(토론 및 Q&A), 학습 콘텐츠 공유',
+      ],
+    },
+    {
+      name: '원티드 프리온보딩 프론트엔드 챌린지',
+      position: 'React',
+      period: '2023 02 ~ ing',
+      content: [
+        '사전과제 수행',
+        '커리큘럼에 따른 기술 역량 향상',
+        '취업 챌린지',
       ],
     },
   ],

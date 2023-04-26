@@ -1,6 +1,6 @@
 import { DesText, TitleContainer, TitleText } from './Title.style';
 
-const AboutTitle = ({ title, des }: { title: string; des: string }) => {
+const Title = ({ title, des }: { title: string; des: string }) => {
   return (
     <TitleContainer>
       <TitleText>{title}</TitleText>
@@ -9,4 +9,4 @@ const AboutTitle = ({ title, des }: { title: string; des: string }) => {
   );
 };
 
-export default AboutTitle;
+export default Title;
