@@ -11,7 +11,7 @@ const Links = ({ setIsDropMenuOpen }) => {
   return (
     <>
       {navLinks.map((link) => (
-        <Link href={link.link} key={link.title} legacyBehavior>
+        <Link href={link.link} key={link.title} passHref legacyBehavior>
           <a
             className={router.pathname === link.path ? 'selected' : null}
             onClick={() => setIsDropMenuOpen(false)}
