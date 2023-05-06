@@ -11,14 +11,14 @@ function Document() {
   `;
 
   return (
-    <Html lang='ko'>
+    <Html lang="ko">
       <Head>
         <script
           data-ad-client={metadata.ads.google}
           async
-          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         />
-        <link href='' rel='shortcut icon' />
+        <link href="" rel="shortcut icon" />
       </Head>
       <body>
         <script dangerouslySetInnerHTML={{ __html: setThemeMode }} />
